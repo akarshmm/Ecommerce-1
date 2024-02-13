@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .icon_wrapper {
+    @apply border border-gray-300 rounded-full w-[53px] h-[55px] grid place-items-center text-[22px] hover:border-y-cyan-600;
+  }
+}
+
+.feature_btn {
+  @apply bg-accent text-white px-4 py-1 rounded-full hover:bg-accentDark;
+}
+.nav-cart-counter {
+  height: 23px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -55px;
+  margin-left: 25px;
+  border-radius: 12px;
+  background: rgb(246, 41, 41);
+  color: white;
+}
